@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.alert{
+.alert {
     padding: 20px;
     font-size: large;
     margin: 10px 0px;
@@ -11,18 +11,18 @@
     /* text-align: center; */
 }
 
-.alert-success{
+.alert-success {
     background-color: green;
     color: white;
 }
 
 
-.alert-danger{
+.alert-danger {
     background-color: rgb(255, 0, 0);
     color: white;
 }
 
-.alert-warning{
+.alert-warning {
     background-color: rgba(211, 211, 14, 0.884);
     color: white;
 }
