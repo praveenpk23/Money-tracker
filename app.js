@@ -177,7 +177,7 @@ const UiCtrl = (function () {
         document.querySelector("#item-list").innerHTML = html;
         ItemCtrl.totalMoney();
       } else {
-        html = `<div style="display: flex; justify-content: center;">
+        html = `<div style="display: flex; justify-content: center; padding:20px;">
         <p style="color: red;">No items available</p>
         </div>`;
         document.querySelector("#item-list").innerHTML = html;
