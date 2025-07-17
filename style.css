@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.alert{
+    padding: 20px;
+    font-size: large;
+    margin: 10px 0px;
+    transition: opacity 0.5s ease-in-out;
+    /* text-align: center; */
+}
+
+.alert-success{
+    background-color: green;
+    color: white;
+}
+
+
+.alert-danger{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.alert-warning{
+    background-color: rgba(211, 211, 14, 0.884);
+    color: white;
+}
